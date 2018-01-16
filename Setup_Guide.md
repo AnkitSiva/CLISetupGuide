@@ -7,7 +7,7 @@ Hello future Command Line Interface (CLI) navigator! Welcome to my (Ankit Siva) 
 This guide includes specific instructions for MacOS and Debian based OSes (eg: Ubuntu). If you're using a different distro then you probably already know these things and don't need my help in setting it up (go you!).
 
 I hope that this gets students in CS 2110 and other courses where they interact with Linux for the first time away from the GUI to understand how they can make their development experience much faster.
-For CS 2110, I ssh-ed into the VM instance running and found I coudl code, test and debug much faster than people who used GUI based text editors within their VM instances.
+For CS 2110, I ssh-ed into the VM instance running and found I could code, test and debug much faster than people who used GUI based text editors within their VM instances.
 
 ## What this guide is (and what it isn't)
 #### What it is

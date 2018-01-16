@@ -15,6 +15,7 @@ For CS 2110, I ssh-ed into the VM instance running and found I could code, test 
 A quickstart in setting up and configuring command line tools so that you can succeed in migrating to the command line as quickly and painlessly as possible. This stems from a particularly painful couple of weeks I had to grind through at my summer research opportunity where my work was purely restricted to the command line. You will find that you will work much faster, but more importantly, look cooler while working with the command line.
 
 This guide will also help you speed up your development in CS 2110/research projects/work where it is significantly more convenient to ssh into your development environment than being physically present with GUI.
+I have added some hot tips on what ssh-ing is, how to do it, ways to copy files from one machine to another over a network (securely), and anything else I come up with while writing this guide.
 
 I will try to reduce the number of separate webpages, github repos or other sources you'll have to visit. However...
 
@@ -86,10 +87,15 @@ Only step 1 differs between MacOS and Debian:
    ```
 
 4. ```bash
-   vim
+   vim ~/.vim/vimrc
    ```
 
-You should see a bunch of stuff updating and installing at this point. These are the plugins I use for Vim and it's now set up for you to use!
+5. When inside vim, type the following exactly (and then hit Enter):
+   ```vimscript
+   :PlugInstall
+   ```
+
+You should see a bunch of stuff updating and installing at this point. These are the plugins I use for Vim and it's now set up for you to use! Restart vim by first typing `:q` and then from terminal open vim by simply typing `vim`. You should see a knowledgeable Cow greeting you.
 
 
 ## Installing Zsh and OhMyZsh
@@ -123,3 +129,7 @@ Save [this link](https://raw.githubusercontent.com/caiogondim/bullet-train-oh-my
 #### Ankit's .zshrc
 
 Save [this](https://gist.githubusercontent.com/AnkitSiva/568474f65ce83c377fe1002468f2ce11/raw/d9a6ac00230c6db37251f5070775d0f99e3b3197/.zshrc) in your ~/ (home directory) and edit the path of oh-my-zsh to what it is in your laptop. (Line 5 of the .zshrc)
+
+## SSH
+
+__Todo__

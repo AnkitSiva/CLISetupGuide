@@ -1,5 +1,8 @@
 # Who Wants to be a CLIllionaire?
 
+A guide by Ankit Siva
+Contact me with the details from my [website](http://www.ankitsiva.xyz) or you could alternatively search the Georgia Tech directory.
+
 ## Introduction
 
 Hello future Command Line Interface (CLI) navigator! Welcome to my (Ankit Siva) guide to being as productive as possible in the CLI! This set-up and orientation guide started off as a way for me to remember the order in which to install the tools, plugins and themes (will probably make a script for this soon) for new machines/servers I ssh into. Before you delve into the instructions, I strongly recommend you read this next section (the disclaimer) so that I don't hype you up _too_ much about what this guide does.
@@ -105,7 +108,7 @@ Zshell (or Zsh) is a different shell to use when interacting with your computer 
 I use OhMyZsh as my plugin manager for Zsh -- it is the largest community for Zsh plugins and themes and the most widely supported.
 
 #### MacOS
-
+the 
 ```bash
 brew update && brew install zsh
 sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
@@ -132,4 +135,27 @@ Save [this](https://gist.githubusercontent.com/AnkitSiva/568474f65ce83c377fe1002
 
 ## SSH
 
-__Todo__
+Now to a more command focussed section. The reasons I use SSH (Secure SHell) largely fall into one of the 3 following categories:
+1. I don't want to use more of my own processing power to render GUI and I despise lag (VMs)
+2. I don't have to be physically present to work on the computer (machines at my lab)
+3. I don't want to hook up my Raspberry Pi to my monitor and keyboard + the above two reasons.
+
+To ssh into a machine run:
+```zsh
+ssh <username>@<ip address of machine>
+```
+
+You will then be prompted to type in the username for the said machine.
+
+#### scp
+
+This sub-section is to mainly deal with an annoyance I heard some friends air. CS 2110 TAs in Fall '17 uploaded all files related to a homework in a single .zip/.tar.gz file. Including the pdf. It's terrible to read a pdf file on a VM so many people would end up downloading the zipped resources twice. Instead, you can use the following command:
+
+```zsh
+scp <username1>@<ip of source host>:path/to/file/file_to_copy <username2>@<ip of destination host>:path/to/destination
+```
+
+Here's an example where I am copying the file `trial.pdf` from my VM to my main OS:
+```zsh
+scp ankit@128.95.54.78:/Users/ankit/HW4/trial.pdf ~/CS_2110/HW4/
+```

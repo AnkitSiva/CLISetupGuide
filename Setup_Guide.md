@@ -147,6 +147,10 @@ ssh <username>@<ip address of machine>
 
 You will then be prompted to type in the username for the said machine.
 
+Before I ssh into a machine, I first need to know what the ip address of said machine. One way is to ask someone who already knows it. Another would be to run `ifconfig` when you're physically present and the final case would be to check your router's logs or gatech's ethernet registration website.
+
+`ifconfig` floods you with a ton of information, but all you need to note down is the inet address under the physical port through which you are connected to the internet with.
+
 #### scp
 
 This sub-section is to mainly deal with an annoyance I heard some friends air. CS 2110 TAs in Fall '17 uploaded all files related to a homework in a single .zip/.tar.gz file. Including the pdf. It's terrible to read a pdf file on a VM so many people would end up downloading the zipped resources twice. Instead, you can use the following command:

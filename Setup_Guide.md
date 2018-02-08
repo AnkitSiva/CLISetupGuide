@@ -102,6 +102,17 @@ Only step 1 differs between MacOS and Debian:
 You should see a bunch of stuff updating and installing at this point. These are the plugins I use for Vim and it's now set up for you to use! Restart vim by first typing `:q` and then from terminal open vim by simply typing `vim`. You should see a knowledgeable Cow greeting you.
 
 
+__Note:__ If the vimrc runs too slow, then do the following steps:
+1. From terminal:
+   ```bash
+   rm vimrc && mv light_vimrc.txt vimrc
+   ```
+2. Next, open `vimrc` in `Vim` with
+   ```bash
+   vim ~/.vim/vimrc
+   ```
+3. Finally, run `:PlugClean` and `:source ~/.vim/vimrc`
+
 ## Installing Zsh and OhMyZsh
 
 Zshell (or Zsh) is a different shell to use when interacting with your computer through the CLI. Most machines use Bash by default but Zsh is more readily optimized for faster use, and configuration.

@@ -222,7 +222,7 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 |Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
 |Start/end spellcheck|`:set spell!`|`,,`
 
-__*__The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
+__*__ The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
 
 ####Insert
 

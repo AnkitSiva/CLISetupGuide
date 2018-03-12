@@ -169,7 +169,7 @@ Before I ssh into a machine, I first need to know what the ip address of said ma
 
 `ifconfig` floods you with a ton of information, but all you need to note down is the inet address under the physical port through which you are connected to the internet with.
 
-#### SCP
+## SCP
 
 This sub-section is to mainly deal with an annoyance I heard some friends air. CS 2110 TAs in Fall '17 uploaded all files related to a homework in a single .zip/.tar.gz file. Including the pdf. It's terrible to read a pdf file on a VM so many people would end up downloading the zipped resources twice. Instead, you can use the following command:
 
@@ -181,3 +181,57 @@ Here's an example where I am copying the file `trial.pdf` from my VM to my main 
 ```zsh
 scp ankit@128.95.54.78:/Users/ankit/HW4/trial.pdf ~/CS_2110/HW4/
 ```
+
+## Vim
+Here is a cheatsheet and basic explanation of Vim and commands:
+
+* You use Vim in "modes". They are:
+    1. Normal Mode (to navigate around the file)
+    1. Insert Mode (to insert text)
+    1. Visual Mode (to visually select code to copy/paste/cut/insert)
+    1. Command Mode (to perform commands on the file like substitution/find/saving/editing)
+* If you are unsure what mode you are in, pressing `<esc>` once will return you to normal mode, abandoning whatever command you were performing in the specfic mode you are in.
+* There are many ways to enter the modes but here are the basic ones:
+    1. `<esc>` to enter Normal
+    1. `i` to enter Insert (places cursor before the character the cursor is on)
+    1. `v` to enter Visual
+    1. `:` to enter Command
+
+Below, I have listed some of my most used commands, the shortcuts I have mapped them to.
+
+####Normal
+Action|Default Vim|My Shortcut
+:------|:--------:|:------:
+Navigate file|`hjkl`|`hjkl`
+Open nerdTree|`<tab>`|`<tab>`
+Move to end of word|`e`|`e`
+Move to beginning of next word|`w`|`w`
+Move to beginning of last word|`b`|`b`
+Move to end of line|`$`|`$`
+Move to beginning of line|`0`|`0`
+Move to end of file|`G`|`G`
+Move to beginning of file|`gg`|`gg`
+Replace single character|`r`|`r`
+Replace multiple characters|`R`|`R`
+Change how many characters*|`c<navigator>`|`c<navigator>`
+Delete how many characters*|`d<navigator>`|`d<navigator>`
+Quit|`:q`|`:q`
+Save and quit|`:wq`|`''`
+Save|`:w`|`\\-`
+Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
+Start/end spellcheck|`:set spell!`|`,,`
+
+The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
+####Insert
+Action|Default Vim|My Shortcut
+:------|:--------:|:------:
+Insert text before cursor|'i'|'i'
+Insert text after cursor|'a'|'a'
+Insert text at end of line|'A'|'A'
+Insert line below and start editing|'o'|'o'
+Insert line above and start editing|'O'|'O'
+Exit to normal mode|'<esc>'|'jk/JK'
+
+####Command
+Action|Default Vim|My Shortcut
+:------|:--------:|:------:

@@ -238,12 +238,12 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
-|Insert text before cursor|'i'|'i'
-|Insert text after cursor|'a'|'a'
-|Insert text at end of line|'A'|'A'
-|Insert line below and start editing|'o'|'o'
-|Insert line above and start editing|'O'|'O'
-|Exit to normal mode|'<esc>'|'jk/JK'
+|Insert text before cursor|`i`|`i`
+|Insert text after cursor|`a`|`a`
+|Insert text at end of line|`A`|`A`
+|Insert line below and start editing|`o`|`o`
+|Insert line above and start editing|`O`|`O`
+|Exit to normal mode|`<esc>`|`jk/JK`
 
 #### Command
 

@@ -201,7 +201,7 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 
 ####Normal
 |Action|Default Vim|My Shortcut
-:------|:--------:|:------:
+|:------|:--------:|:------:
 |Navigate file|`hjkl`|`hjkl`
 |Open nerdTree|`<tab>`|`<tab>`
 |Move to end of word|`e`|`e`

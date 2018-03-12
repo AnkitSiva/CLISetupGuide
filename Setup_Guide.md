@@ -247,3 +247,4 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 
 |Action|Default Vim|My Shortcut
 |:------|:--------:|:------:
+|Find and replace|`:<start-line>,<end-line>s/<character_sequence/regex to find>/<character_sequence/regex to replace with>/[g/gc]`|-

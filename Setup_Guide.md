@@ -86,23 +86,22 @@ Only step 1 differs between MacOS and Debian:
 
 #### Common
 Do these after you run one of the above
-1. 
+1. Remove the current config file
    ```bash
    rm -r ~/.vim
    ```
 
-1. 
+1. Clone my vimrc and auxiliary files
    ```bash
    git clone https://www.github.com/ankitsiva/vim .vim
    ```
 
-1. 
+1. Open my vimrc
    ```bash
    vim ~/.vim/vimrc
    ```
 
-1. 
-   When inside vim, type the following exactly (and then hit Enter):
+1. When inside vim, type the following exactly (and then hit Enter):
    ```vimscript
    :PlugInstall
    ```

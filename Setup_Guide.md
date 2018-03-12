@@ -70,31 +70,35 @@ Only step 1 differs between MacOS and Debian:
 
 #### MacOS
 
-1. ```bash  
+1. In terminal, run:
+   ```bash
    brew install vim
    ```
+   Move to the common steps.
 
 #### Debian
 
-1. ```bash
+1. In terminal, run:
+   ```bash
    sudo apt-get update && sudo apt-get install vim
    ```
+   Move to the common steps.
 
 #### Common
 
-2. ```bash
+1. ```bash
    rm -r ~/.vim
-   ```
+   ```  
 
-3. ```bash
+1. ```bash
    git clone https://www.github.com/ankitsiva/vim .vim
    ```
 
-4. ```bash
+1. ```bash
    vim ~/.vim/vimrc
    ```
 
-5. When inside vim, type the following exactly (and then hit Enter):
+1. When inside vim, type the following exactly (and then hit Enter):
    ```vimscript
    :PlugInstall
    ```

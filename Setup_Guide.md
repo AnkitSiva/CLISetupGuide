@@ -13,6 +13,8 @@ This guide includes specific instructions for MacOS and Debian based OSes (examp
 I hope that this gets students in CS 2110 and other courses where they interact with Linux for the first time away from the GUI to understand how they can make their development experience much faster.
 For CS 2110, I ssh-ed into the VM instance running and found I could code, test and debug much faster than people who used GUI based text editors within their VM instances.
 
+Embarrassing confession: I started using Vim because I have fleshy thumb-bases that set off the cursor in other text editors. I turned off mouse during insert mode in Vim, can't do this in non-modal text editors.
+
 ## What this guide is (and what it isn't)
 #### What it is
 

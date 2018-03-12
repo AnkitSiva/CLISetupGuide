@@ -85,20 +85,24 @@ Only step 1 differs between MacOS and Debian:
    Move to the common steps.
 
 #### Common
-
-1. ```bash
+Do these after you run one of the above
+1. 
+   ```bash
    rm -r ~/.vim
-   ```  
+   ```
 
-1. ```bash
+1. 
+   ```bash
    git clone https://www.github.com/ankitsiva/vim .vim
    ```
 
-1. ```bash
+1. 
+   ```bash
    vim ~/.vim/vimrc
    ```
 
-1. When inside vim, type the following exactly (and then hit Enter):
+1. 
+   When inside vim, type the following exactly (and then hit Enter):
    ```vimscript
    :PlugInstall
    ```
@@ -124,7 +128,6 @@ Zshell (or Zsh) is a different shell to use when interacting with your computer 
 I use OhMyZsh as my plugin manager for Zsh -- it is the largest community for Zsh plugins and themes and the most widely supported.
 
 #### MacOS
-the 
 ```bash
 brew update && brew install zsh
 sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh

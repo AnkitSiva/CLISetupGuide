@@ -200,6 +200,7 @@ Here is a cheatsheet and basic explanation of Vim and commands:
 Below, I have listed some of my most used commands, the shortcuts I have mapped them to.
 
 ####Normal
+
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
 |Navigate file|`hjkl`|`hjkl`
@@ -222,7 +223,9 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 |Start/end spellcheck|`:set spell!`|`,,`
 
 The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
+
 ####Insert
+
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
 |Insert text before cursor|'i'|'i'
@@ -233,5 +236,6 @@ The characters to change means you can combine with `w`, `e`, `$`, etc from norm
 |Exit to normal mode|'<esc>'|'jk/JK'
 
 ####Command
+
 |Action|Default Vim|My Shortcut
 |:------|:--------:|:------:

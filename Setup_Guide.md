@@ -201,7 +201,7 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 
 ####Normal
 |Action|Default Vim|My Shortcut
-|:------|:--------:|:------:
+| :------ | :--------: | :------:
 |Navigate file|`hjkl`|`hjkl`
 |Open nerdTree|`<tab>`|`<tab>`
 |Move to end of word|`e`|`e`
@@ -224,7 +224,7 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
 ####Insert
 |Action|Default Vim|My Shortcut
-|:------|:--------:|:------:
+| :------ | :--------: | :------:
 |Insert text before cursor|'i'|'i'
 |Insert text after cursor|'a'|'a'
 |Insert text at end of line|'A'|'A'

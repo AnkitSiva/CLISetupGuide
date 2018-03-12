@@ -202,36 +202,36 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 ####Normal
 |Action|Default Vim|My Shortcut
 :------|:--------:|:------:
-Navigate file|`hjkl`|`hjkl`
-Open nerdTree|`<tab>`|`<tab>`
-Move to end of word|`e`|`e`
-Move to beginning of next word|`w`|`w`
-Move to beginning of last word|`b`|`b`
-Move to end of line|`$`|`$`
-Move to beginning of line|`0`|`0`
-Move to end of file|`G`|`G`
-Move to beginning of file|`gg`|`gg`
-Replace single character|`r`|`r`
-Replace multiple characters|`R`|`R`
-Change how many characters*|`c<navigator>`|`c<navigator>`
-Delete how many characters*|`d<navigator>`|`d<navigator>`
-Quit|`:q`|`:q`
-Save and quit|`:wq`|`''`
-Save|`:w`|`\\-`
-Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
-Start/end spellcheck|`:set spell!`|`,,`
+|Navigate file|`hjkl`|`hjkl`
+|Open nerdTree|`<tab>`|`<tab>`
+|Move to end of word|`e`|`e`
+|Move to beginning of next word|`w`|`w`
+|Move to beginning of last word|`b`|`b`
+|Move to end of line|`$`|`$`
+|Move to beginning of line|`0`|`0`
+|Move to end of file|`G`|`G`
+|Move to beginning of file|`gg`|`gg`
+|Replace single character|`r`|`r`
+|Replace multiple characters|`R`|`R`
+|Change how many characters*|`c<navigator>`|`c<navigator>`
+|Delete how many characters*|`d<navigator>`|`d<navigator>`
+|Quit|`:q`|`:q`
+|Save and quit|`:wq`|`''`
+|Save|`:w`|`\\-`
+|Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
+|Start/end spellcheck|`:set spell!`|`,,`
 
 The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
 ####Insert
 |Action|Default Vim|My Shortcut
-:------|:--------:|:------:
-Insert text before cursor|'i'|'i'
-Insert text after cursor|'a'|'a'
-Insert text at end of line|'A'|'A'
-Insert line below and start editing|'o'|'o'
-Insert line above and start editing|'O'|'O'
-Exit to normal mode|'<esc>'|'jk/JK'
+|:------|:--------:|:------:
+|Insert text before cursor|'i'|'i'
+|Insert text after cursor|'a'|'a'
+|Insert text at end of line|'A'|'A'
+|Insert line below and start editing|'o'|'o'
+|Insert line above and start editing|'O'|'O'
+|Exit to normal mode|'<esc>'|'jk/JK'
 
 ####Command
 |Action|Default Vim|My Shortcut
-:------|:--------:|:------:
+|:------|:--------:|:------:

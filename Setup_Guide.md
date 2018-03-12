@@ -214,15 +214,15 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 |Move to beginning of file|`gg`|`gg`
 |Replace single character|`r`|`r`
 |Replace multiple characters|`R`|`R`
-|Change how many characters*|`c<navigator>`|`c<navigator>`
-|Delete how many characters*|`d<navigator>`|`d<navigator>`
+|Change how many characters__*__|`c<navigator>`|`c<navigator>`
+|Delete how many characters__*__|`d<navigator>`|`d<navigator>`
 |Quit|`:q`|`:q`
 |Save and quit|`:wq`|`''`
 |Save|`:w`|`\\-`
 |Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
 |Start/end spellcheck|`:set spell!`|`,,`
 
-The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
+__*__The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
 
 ####Insert
 

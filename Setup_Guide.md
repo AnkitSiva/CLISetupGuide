@@ -214,8 +214,8 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 |Move to beginning of file|`gg`|`gg`
 |Replace single character|`r`|`r`
 |Replace multiple characters|`R`|`R`
-|Change how many characters__*__|`c<navigator>`|`c<navigator>`
-|Delete how many characters__*__|`d<navigator>`|`d<navigator>`
+|Change how many characters __*__|`c<navigator>`|`c<navigator>`
+|Delete how many characters __*__|`d<navigator>`|`d<navigator>`
 |Quit|`:q`|`:q`
 |Save and quit|`:wq`|`''`
 |Save|`:w`|`\\-`

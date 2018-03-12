@@ -197,9 +197,9 @@ Here is a cheatsheet and basic explanation of Vim and commands:
     1. `v` to enter Visual
     1. `:` to enter Command
 
-Below, I have listed some of my most used commands, the shortcuts I have mapped them to.
+Below, I have listed some of my most used commands, the shortcuts I have mapped them to. You can chain them easily to perform compound actions
 
-####Normal
+#### Normal
 
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
@@ -221,10 +221,18 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 |Save|`:w`|`\\-`
 |Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
 |Start/end spellcheck|`:set spell!`|`,,`
+|Find next instance of|`/<character sequence/regex>`|-
+|Find previous instance of|`?<character sequence/regex>`|-
+|Navigate to next instance|`n`|`n`
+|Navgiate to previous instance (search backwards)|`N`|`N`
+|Delete x lines|`d`x`d`|`d`x`d`
+|Yank x lines|`y`x`y`|`y`x`y`
+|Repeat last chain of commands|`.`|-
+
 
 __*__ The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
 
-####Insert
+#### Insert
 
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
@@ -235,7 +243,7 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 |Insert line above and start editing|'O'|'O'
 |Exit to normal mode|'<esc>'|'jk/JK'
 
-####Command
+#### Command
 
 |Action|Default Vim|My Shortcut
 |:------|:--------:|:------:

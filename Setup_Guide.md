@@ -124,7 +124,7 @@ __Note:__ If the vimrc runs too slow, then do the following steps:
 
 ## Installing Zsh and OhMyZsh
 
-Zshell (or Zsh) is a different shell to use when interacting with your computer through the CLI. Most machines use Bash by default but Zsh is more readily optimized for faster use, and configuration.
+Zshell (or Zsh) is a different shell to use when interacting with your computer through the CLI. Most machines use Bash by default but Zsh is more readily optimized for faster __use__, and configuration.
 
 I use OhMyZsh as my plugin manager for Zsh -- it is the largest community for Zsh plugins and themes and the most widely supported.
 
@@ -244,6 +244,7 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 |Insert line below and start editing|`o`|`o`
 |Insert line above and start editing|`O`|`O`
 |Exit to normal mode|`<esc>`|`jk/JK`
+|Move smartly after parentheses auto-complete __*__|`<C-j>`|`<C-j>`
 
 #### Command
 

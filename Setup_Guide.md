@@ -246,6 +246,8 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 |Exit to normal mode|`<esc>`|`jk/JK`
 |Move smartly after parentheses auto-complete __*__|`<C-j>`|`<C-j>`
 
+
+__*__ This is specifically for the vim-latex plugin, but this command is immensely helpful for cutting down on the number of jumps you need to do while inserting code.
 #### Command
 
 |Action|Default Vim|My Shortcut

@@ -205,31 +205,33 @@ Below, I have listed some of my most used commands, the shortcuts I have mapped 
 
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
-|Navigate file|`hjkl`|`hjkl`
-|Open nerdTree|`<tab>`|`<tab>`
-|Move to end of word|`e`|`e`
-|Move to beginning of next word|`w`|`w`
-|Move to beginning of last word|`b`|`b`
-|Move to end of line|`$`|`$`
-|Move to beginning of line|`0`|`0`
-|Move to end of file|`G`|`G`
-|Move to beginning of file|`gg`|`gg`
-|Replace single character|`r`|`r`
-|Replace multiple characters|`R`|`R`
-|Change how many characters __*__|`c<navigator>`|`c<navigator>`
-|Delete how many characters __*__|`d<navigator>`|`d<navigator>`
-|Quit|`:q`|`:q`
+|Navigate file|`hjkl`|-
+|Open nerdTree|`<tab>`|-
+|Move to end of word|`e`|-
+|Move to beginning of next word|`w`|-
+|Move to beginning of last word|`b`|-
+|Move to end of line|`$`|-
+|Move to beginning of line|`0`|-
+|Move to end of file|`G`|-
+|Move to beginning of file|`gg`|-
+|Replace single character|`r`|-
+|Replace multiple characters|`R`|-
+|Change how many characters __*__|`c<navigator>`|-
+|Delete how many characters __*__|`d<navigator>`|-
+|Quit|`:q`|-
 |Save and quit|`:wq`|`''`
 |Save|`:w`|`\\-`
 |Show time|`:echo 'Current time is ' . strftime('%c')<CR>`|`<F2>`
 |Start/end spellcheck|`:set spell!`|`,,`
 |Find next instance of|`/<character sequence/regex>`|-
 |Find previous instance of|`?<character sequence/regex>`|-
-|Navigate to next instance|`n`|`n`
-|Navgiate to previous instance (search backwards)|`N`|`N`
-|Delete x lines|`d`x`d`|`d`x`d`
-|Yank x lines|`y`x`y`|`y`x`y`
+|Navigate to next instance|`n`|-
+|Navgiate to previous instance (search backwards)|`N`|-
+|Delete x lines|`d`x`d`|-
+|Yank x lines|`y`x`y`|-
 |Repeat last chain of commands|`.`|-
+|Open this specific fold|`zr`|-
+|Open all folds|`zR`|-
 
 
 __*__ The characters to change means you can combine with `w`, `e`, `$`, etc from normal mode to change those many characters. It deletes those many characters and inserts cursor before them. This can similarly be done with `d` to delete x characters.
@@ -238,13 +240,13 @@ __*__ The characters to change means you can combine with `w`, `e`, `$`, etc fro
 
 |Action|Default Vim|My Shortcut
 | :------ | :--------: | :------:
-|Insert text before cursor|`i`|`i`
-|Insert text after cursor|`a`|`a`
-|Insert text at end of line|`A`|`A`
-|Insert line below and start editing|`o`|`o`
-|Insert line above and start editing|`O`|`O`
-|Exit to normal mode|`<esc>`|`jk/JK`
-|Move smartly after parentheses auto-complete __*__|`<C-j>`|`<C-j>`
+|Insert text before cursor|`i`|-
+|Insert text after cursor|`a`|-
+|Insert text at end of line|`A`|-
+|Insert line below and start editing|`o`|-
+|Insert line above and start editing|`O`|-
+|Exit to normal mode|`<esc>`|`jj/JJ`
+|Move smartly after parentheses auto-complete __*__|`<C-j>`|-
 
 
 __*__ This is specifically for the vim-latex plugin, but this command is immensely helpful for cutting down on the number of jumps you need to do while inserting code.
